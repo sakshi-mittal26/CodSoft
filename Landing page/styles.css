@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.main-header {
+  background: linear-gradient(135deg, #db56a4, #7c156e);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.main-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.main-header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: #fff;
+  color: #8a0f57;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #c8e6c9;
+}
+
+/* Sections */
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0e51e2;
+}
+
+/* About */
+.instructor-bio p {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Learn Section */
+.learn ul {
+  list-style: none;
+  padding: 0;
+}
+
+.learn li {
+  background: #e8f5e9;
+  padding: 12px;
+  margin: 8px 0;
+  border-left: 5px solid #d30b73;
+  border-radius: 4px;
+}
+
+/* Syllabus */
+.syllabus ol {
+  padding-left: 20px;
+}
+
+.syllabus li {
+  margin: 10px 0;
+}
+
+/* Contact */
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register input,
+.register textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.register button {
+  background: #021002;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register button:hover {
+  background: #e50505;
+}
+
+/* Footer */
+.main-footer {
+  background: #c061c5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-header h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
